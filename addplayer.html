@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon"
+        href="https://yt3.ggpht.com/a/AGF-l78km1YyNXmF0r3-0CycCA0HLA_i6zYn_8NZEg=s900-c-k-c0xffffffff-no-rj-mo"
+        type="image/gif" sizes="16x16">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800&amp;display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4a3b1f73a2.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="header">
+        <div id="inside_haeder">
+            <div class="logo">
+                <img onclick="home()" src="https://www.iplt20.com/assets/images/ipl-logo-new-old.png" alt="IPL-LOGO">
+            </div>
+            <h3>Matches</h3>
+            <h3>Videos</h3>
+            <h3>Stats</h3>
+            <h3>Teams</h3>
+            <div class="searchField">
+                
+                <input id="textvalue" placeholder="Enter team name eg:MI" required type="text">
+                <i class="fas fa-search" onclick="fetch()" aria-hidden="true" ></i>
+            </div>
+        </div>
+    </div>
+    <div id="form">
+        <form id="form1">
+            <h2>Add Player</h2>
+            <div id="inputfield">
+                <h4>PlayerName</h4>
+                <input type="text" id="playerName" placeholder="Enter playerName">
+            </div>
+            <div id="inputfield">
+                <h4>Player Image Link</h4>
+                <input type="text" id="playerimage" placeholder="Enter playerimage">
+            </div>
+            <div id="inputfield">
+                <h4>Team Name Shortcut</h4>
+                <input type="text" id="team" placeholder="Enter Team Name">
+            </div>
+            <div id="inputfield">
+                <h4>Price</h4>
+                <input type="text" id="price" placeholder="Enter price">
+            </div>
+            <div id="inputfield">
+                <h4>Role</h4>
+                <input type="text" id="role" placeholder="Enter Role">
+            </div>
+            <input onclick="ap()" type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+
+    <script src="homepage.js"></script>
+    
+    
+</body>
+</html>
